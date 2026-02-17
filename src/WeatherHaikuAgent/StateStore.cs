@@ -53,13 +53,7 @@ public class StateStore
             var json = JsonSerializer.Serialize(state, _jsonOptions);
             
             File.WriteAllText(tempPath, json);
-            
-            if (File.Exists(_statePath))
-            {
-                File.Delete(_statePath);
-            }
-            
-            File.Move(tempPath, _statePath);
+            File.Move(tempPath, _statePath, overwrite: true);
             
             Console.WriteLine($"✓ State saved: Last temp {state.LastLocalTempF}°F, Last sent {state.LastLocalSentAt}");
         }

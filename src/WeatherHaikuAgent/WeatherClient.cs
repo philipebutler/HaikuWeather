@@ -21,15 +21,7 @@ public class WeatherClient
         try
         {
             var response = await _httpClient.GetStringAsync(url);
-            var doc = JsonDocument.Parse(response);
-            
-            if (doc.RootElement.TryGetProperty("current_weather", out var currentWeather) &&
-                currentWeather.TryGetProperty("temperature", out var temp))
-            {
-                return temp.GetDouble();
-            }
-
-            throw new Exception("Temperature data not found in API response");
+            return ParseTemperatureFromResponse(response);
         }
         catch (HttpRequestException ex)
         {
@@ -39,20 +31,25 @@ public class WeatherClient
             try
             {
                 var response = await _httpClient.GetStringAsync(url);
-                var doc = JsonDocument.Parse(response);
-                
-                if (doc.RootElement.TryGetProperty("current_weather", out var currentWeather) &&
-                    currentWeather.TryGetProperty("temperature", out var temp))
-                {
-                    return temp.GetDouble();
-                }
+                return ParseTemperatureFromResponse(response);
             }
             catch (Exception retryEx)
             {
                 throw new Exception($"Failed to fetch weather after retry: {retryEx.Message}");
             }
-
-            throw new Exception("Temperature data not found in API response after retry");
         }
+    }
+
+    private double ParseTemperatureFromResponse(string response)
+    {
+        var doc = JsonDocument.Parse(response);
+        
+        if (doc.RootElement.TryGetProperty("current_weather", out var currentWeather) &&
+            currentWeather.TryGetProperty("temperature", out var temp))
+        {
+            return temp.GetDouble();
+        }
+
+        throw new Exception("Temperature data not found in API response. Expected JSON structure: {\"current_weather\": {\"temperature\": <number>}}");
     }
 }

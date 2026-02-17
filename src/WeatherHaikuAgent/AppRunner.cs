@@ -171,18 +171,30 @@ public class AppRunner
 
         if (mode == "HotOnly")
         {
-            return locations
+            var hotLocation = locations
                 .Where(l => l.TempF > refTemp)
                 .OrderByDescending(l => l.Departure)
-                .First();
+                .FirstOrDefault();
+            
+            if (hotLocation == default)
+            {
+                return locations.OrderByDescending(l => l.Departure).First();
+            }
+            return hotLocation;
         }
         
         if (mode == "ColdOnly")
         {
-            return locations
+            var coldLocation = locations
                 .Where(l => l.TempF < refTemp)
                 .OrderByDescending(l => l.Departure)
-                .First();
+                .FirstOrDefault();
+            
+            if (coldLocation == default)
+            {
+                return locations.OrderByDescending(l => l.Departure).First();
+            }
+            return coldLocation;
         }
 
         return locations.OrderByDescending(l => l.Departure).First();

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "jFBCtDonbko=",
+  "success": true,
+  "projectFilePath": "/home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/WeatherHaikuAgent.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/.nuget/packages/bouncycastle.cryptography/2.6.2/bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/mailkit/4.15.0/mailkit.4.15.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration/10.0.3/microsoft.extensions.configuration.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.3/microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.binder/10.0.3/microsoft.extensions.configuration.binder.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.environmentvariables/10.0.3/microsoft.extensions.configuration.environmentvariables.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.fileextensions/10.0.3/microsoft.extensions.configuration.fileextensions.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.json/10.0.3/microsoft.extensions.configuration.json.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.3/microsoft.extensions.fileproviders.abstractions.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.fileproviders.physical/10.0.3/microsoft.extensions.fileproviders.physical.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.filesystemglobbing/10.0.3/microsoft.extensions.filesystemglobbing.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.primitives/10.0.3/microsoft.extensions.primitives.10.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/mimekit/4.15.0/mimekit.4.15.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.security.cryptography.pkcs/10.0.0/system.security.cryptography.pkcs.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
