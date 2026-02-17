@@ -173,7 +173,7 @@ Tests configuration loading from JSON and environment variables.
 - **Passed:** 117 ✅
 - **Failed:** 0
 - **Skipped:** 0
-- **Duration:** ~150ms
+- **Duration:** ~940ms
 
 ## Running Tests
 
