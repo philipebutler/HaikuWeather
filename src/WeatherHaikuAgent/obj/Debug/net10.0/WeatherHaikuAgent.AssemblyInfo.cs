@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeatherHaikuAgent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+768b34897ad6117b9b2ff66b7ba1fb9a061b974c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6364cdbfddd17112e715423531ba2558d07247ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeatherHaikuAgent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeatherHaikuAgent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

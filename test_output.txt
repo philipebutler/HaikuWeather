@@ -1,0 +1,294 @@
+Build started 02/17/2026 03:30:43.
+     1>Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" on node 1 (Restore target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+       _GetAllRestoreProjectPathItems:
+         Determining projects to restore...
+     1>Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" (1) is building "/home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/WeatherHaikuAgent.csproj" (2:6) on node 1 (_GenerateProjectRestoreGraph target(s)).
+     2>AddPrunePackageReferences:
+         Loading prune package data from PrunePackageData folder
+         Failed to load prune package data from PrunePackageData folder, loading from targeting packs instead
+     1>Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" (1) is building "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (3:5) on node 2 (_GenerateProjectRestoreGraph target(s)).
+     3>AddPrunePackageReferences:
+         Loading prune package data from PrunePackageData folder
+         Failed to load prune package data from PrunePackageData folder, loading from targeting packs instead
+     2>AddPrunePackageReferences:
+         Looking for targeting packs in /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref
+         Pack directories found: /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.2
+     3>AddPrunePackageReferences:
+         Looking for targeting packs in /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref
+         Pack directories found: /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.2
+     2>AddPrunePackageReferences:
+         Found package overrides file /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.2/data/PackageOverrides.txt
+     3>AddPrunePackageReferences:
+         Found package overrides file /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.2/data/PackageOverrides.txt
+     2>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/WeatherHaikuAgent.csproj" (_GenerateProjectRestoreGraph target(s)).
+     3>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (_GenerateProjectRestoreGraph target(s)).
+     1>Restore:
+         X.509 certificate chain validation will use the fallback certificate bundle at '/usr/share/dotnet/sdk/10.0.102/trustedroots/codesignctl.pem'.
+         X.509 certificate chain validation will use the fallback certificate bundle at '/usr/share/dotnet/sdk/10.0.102/trustedroots/timestampctl.pem'.
+         Assets file has not changed. Skipping assets file writing. Path: /home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/obj/project.assets.json
+         Assets file has not changed. Skipping assets file writing. Path: /home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/obj/project.assets.json
+         Restored /home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/WeatherHaikuAgent.csproj (in 45 ms).
+         Restored /home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj (in 45 ms).
+         
+         NuGet Config files used:
+             /home/runner/.nuget/NuGet/NuGet.Config
+         
+         Feeds used:
+             https://api.nuget.org/v3/index.json
+         All projects are up-to-date for restore.
+     1>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" (Restore target(s)).
+   1:2>Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" on node 1 (VSTest target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+   1:2>Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" (1:2) is building "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (3:6) on node 2 (VSTest target(s)).
+     3>BuildProject:
+         Build started, please wait...
+   3:6>Project "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (3:6) is building "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (3:7) on node 2 (default targets).
+   3:7>Project "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (3:7) is building "/home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/WeatherHaikuAgent.csproj" (2:9) on node 1 (default targets).
+     2>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link file 'obj/Debug/net10.0/WeatherHaikuAgent.sourcelink.json' is up-to-date.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       _CreateAppHost:
+       Skipping target "_CreateAppHost" because all output files are up-to-date with respect to the input files.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildRuntimeConfigurationFiles:
+       Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         WeatherHaikuAgent -> /home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/bin/Debug/net10.0/WeatherHaikuAgent.dll
+     2>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/src/WeatherHaikuAgent/WeatherHaikuAgent.csproj" (default targets).
+     3>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link file 'obj/Debug/net10.0/WeatherHaikuAgent.Tests.sourcelink.json' is up-to-date.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildRuntimeConfigurationFiles:
+       Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         WeatherHaikuAgent.Tests -> /home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/bin/Debug/net10.0/WeatherHaikuAgent.Tests.dll
+     3>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (default targets).
+     3>BuildProject:
+         Build completed.
+         
+Test run for /home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/bin/Debug/net10.0/WeatherHaikuAgent.Tests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 18.0.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.2)
+[xUnit.net 00:00:00.08]   Discovering: WeatherHaikuAgent.Tests
+[xUnit.net 00:00:00.15]   Discovered:  WeatherHaikuAgent.Tests
+[xUnit.net 00:00:00.19]   Starting:    WeatherHaikuAgent.Tests
+No state file found, starting fresh
+✓ State saved: Last temp 68.5°F, Last sent 
+✓ State saved: Last temp 68.5°F, Last sent 01/15/2024 12:00:00
+Loaded state: Last temp 68.5°F, Last sent 01/15/2024 12:00:00
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PorchPoet_BoundaryTests(tempF: 68, expected: "Porch Poet") [5 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_DifferentModes_ProduceValidHaikus(mode: "Random") [9 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_DifferentModes_ProduceValidHaikus(mode: "Deterministic") [1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PorchPoet_BoundaryTests(tempF: 61, expected: "Porch Poet") [2 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PorchPoet_BoundaryTests(tempF: 75, expected: "Porch Poet") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_SunHypeman_BoundaryTests(tempF: 90, expected: "Sun Hypeman") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_SunHypeman_BoundaryTests(tempF: 83, expected: "Sun Hypeman") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_SunHypeman_BoundaryTests(tempF: 76, expected: "Sun Hypeman") [< 1 ms]
+✓ State saved: Last temp 68.5°F, Last sent 01/15/2024 12:00:00
+Loaded state: Last temp 68.5°F, Last sent 01/15/2024 12:00:00
+✓ State saved: Last temp °F, Last sent 
+Loaded state: Last temp °F, Last sent 
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_ExactBoundary_90Degrees_ReturnsSunHypeman [< 1 ms]
+✓ State saved: Last temp 68.5°F, Last sent 01/15/2024 12:00:00
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PersonaChangesAcrossBoundary(temp1: 60, temp2: 61) [6 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PersonaChangesAcrossBoundary(temp1: 40, temp2: 41) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PersonaChangesAcrossBoundary(temp1: 20, temp2: 21) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PersonaChangesAcrossBoundary(temp1: 75, temp2: 76) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_PersonaChangesAcrossBoundary(temp1: 90, temp2: 91) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_AtBoundaries_IsConsistent(tempF: 40) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_AtBoundaries_IsConsistent(tempF: 20) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_AtBoundaries_IsConsistent(tempF: 60) [< 1 ms]
+✓ State saved: Last temp 68.5°F, Last sent 
+Temperature delta 7.0°F exceeds threshold 3°F
+Should send extreme notification
+No state file found, starting fresh
+✓ State saved: Last temp °F, Last sent 
+Loaded state: Last temp °F, Last sent 
+Temperature delta 7.0°F exceeds threshold 3°F
+Temperature delta 4.0°F exceeds threshold 3°F
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_AtBoundaries_IsConsistent(tempF: 90) [< 1 ms]
+✓ State saved: Last temp 65°F, Last sent 
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_AtBoundaries_IsConsistent(tempF: 75) [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_SnowComedian_BoundaryTests(tempF: 40, expected: "Snow Comedian") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_SnowComedian_BoundaryTests(tempF: 30, expected: "Snow Comedian") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_SnowComedian_BoundaryTests(tempF: 21, expected: "Snow Comedian") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_ExactBoundary_75Degrees_ReturnsPorchPoet [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_FrostMonk_BoundaryTests(tempF: -40, expected: "Frost Monk") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_FrostMonk_BoundaryTests(tempF: 0, expected: "Frost Monk") [3 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_FrostMonk_BoundaryTests(tempF: 20, expected: "Frost Monk") [< 1 ms]
+✓ State saved: Last temp 70°F, Last sent 
+Outside allowed hours
+Temperature delta 3.0°F exceeds threshold 3°F
+No significant change (delta: 2.0°F, persona same: True)
+Cooldown not satisfied
+Invalid DailySendTimeLocal format
+Outside allowed hours
+No significant change (delta: 1.0°F, persona same: True)
+Temperature delta 7.0°F exceeds threshold 3°F
+Outside allowed hours
+Temperature delta 3.5°F exceeds threshold 3°F
+Temperature delta 7.0°F exceeds threshold 3°F
+Loaded state: Last temp 70°F, Last sent 
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_HeatDramatic_BoundaryTests(tempF: 120, expected: "Heat Dramatic") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_HeatDramatic_BoundaryTests(tempF: 91, expected: "Heat Dramatic") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_HeatDramatic_BoundaryTests(tempF: 100, expected: "Heat Dramatic") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_MudPhilosopher_BoundaryTests(tempF: 41, expected: "Mud Philosopher") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_MudPhilosopher_BoundaryTests(tempF: 50, expected: "Mud Philosopher") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_MudPhilosopher_BoundaryTests(tempF: 60, expected: "Mud Philosopher") [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_ExactBoundary_40Degrees_ReturnsSnowComedian [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_ExactBoundary_91Degrees_ReturnsHeatDramatic [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_ExactBoundary_60Degrees_ReturnsMudPhilosopher [< 1 ms]
+Cooldown not satisfied
+Extreme notifications disabled
+Persona changed from Mud Philosopher to Porch Poet
+Temperature delta 7.0°F exceeds threshold 3°F
+Current time 07:00:00 is before send time 07:30:00
+Should send extreme notification
+Persona changed from Porch Poet to Sun Hypeman
+Outside allowed hours
+First run - will send
+Should send extreme notification
+Current time 14:00:00 is before send time 14:30:00
+Error loading state: 't' is an invalid start of a property name. Expected a '"'. Path: $ | LineNumber: 0 | BytePositionInLine: 2., starting fresh
+✓ State saved: Last temp °F, Last sent 01/15/2024 12:00:00
+Loaded state: Last temp °F, Last sent 01/15/2024 12:00:00
+Should send extreme notification
+Extreme notification already sent today
+Temperature delta 16.0°F exceeds threshold 3°F
+Cooldown not satisfied
+  Passed WeatherHaikuAgent.Tests.PersonaEngineTests.PickPersona_ExactBoundary_20Degrees_ReturnsFrostMonk [< 1 ms]
+Error loading state: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0., starting fresh
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_SunHypeman_ReturnsHaiku [16 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_HeatDramatic_ReturnsHaiku [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_DeterministicMode_SameInputsSameOutput [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_RandomMode_MultipleCallsReturnValidHaikus [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_PorchPoet_ReturnsHaiku [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_InvalidPersona_ReturnsDefaultHaiku [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_FrostMonk_ReturnsHaiku [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_DeterministicMode_DifferentDates_MayProduceDifferentOutput [< 1 ms]
+✓ State saved: Last temp 60°F, Last sent 
+✓ State saved: Last temp 61°F, Last sent 
+✓ State saved: Last temp 62°F, Last sent 
+✓ State saved: Last temp 63°F, Last sent 
+✓ State saved: Last temp 64°F, Last sent 
+✓ State saved: Last temp 65°F, Last sent 
+✓ State saved: Last temp 66°F, Last sent 
+✓ State saved: Last temp 67°F, Last sent 
+✓ State saved: Last temp 68°F, Last sent 
+✓ State saved: Last temp 69°F, Last sent 
+Loaded state: Last temp 69°F, Last sent 
+✓ State saved: Last temp °F, Last sent 
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_AllPersonas_HaveMultipleTemplates [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_AllPersonasHaikus_HaveThreeLines [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_HaikuFormat_HasThreeLines [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_MudPhilosopher_ReturnsHaiku [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_DeterministicMode_DifferentTemps_MayDifferIfHashChanges [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.HaikuGeneratorTests.GenerateHaiku_SnowComedian_ReturnsHaiku [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_NoStateFile_ReturnsNewState [7 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_DefaultEmailConfig_HasCorrectValues [34 ms]
+Loaded state: Last temp °F, Last sent 
+Loaded state: Last temp 68.5°F, Last sent 
+Failed to deserialize state, starting fresh
+Loaded state: Last temp 68.5°F, Last sent 
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_EmptyStringEnvironmentVariable_AllowedForStrings [4 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_HaikuConfig_FromEnvironmentVariables [2 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_DefaultLoggingConfig_HasInfoLevel [1 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_NoConfigFile_ReturnsDefaultConfig [5 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_MultipleLocations_LoadsCorrectly [22 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_InvalidNumericEnvironmentVariable_ThrowsException [3 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_NotifyConfig_FromEnvironmentVariables [2 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_JsonWithComments_HandlesGracefully [1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_UsesAtomicWrite_TempFileThenMove [75 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_CompleteJsonConfig_LoadsAllSections [8 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_DefaultStateConfig_HasCorrectPath [1 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_WithJsonFile_LoadsValues [3 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_StateAndLoggingConfig_FromEnvironmentVariables [1 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_EmailConfig_FromEnvironmentVariables [2 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_EnvironmentVariables_OverrideJsonConfig [2 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_LocalConfig_FromEnvironmentVariables [1 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_ExtremeConfig_FromEnvironmentVariables [2 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.SaveAndLoad_RoundTrip_PreservesData [23 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_PreservesAllFields [1 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_InvalidBooleanEnvironmentVariable_ThrowsException [3 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_EmptyTemplateUsageCount_ReturnsEmptyDictionary [3 ms]
+  Passed WeatherHaikuAgent.Tests.ConfigLoaderTests.Load_MixedJsonAndEnvironment_EnvironmentTakesPrecedence [2 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_ValidState_CreatesFile [1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_ProducesIndentedJson [1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_QuietHoursOverride_ReturnsTrue [1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_SentYesterday_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_InvalidPermissions_ReturnsNewState [1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_DateOnlyHandling_WorksCorrectly [1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_AtQuietHoursStart_ReturnsTrue [2 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_NegativeDelta_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_LargeDeltaButOutsideQuietHours_ReturnsFalse [1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_ExactThreshold_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_TempDeltaBelowThreshold_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_CooldownNotSatisfied_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_InvalidTimeFormat_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_AfterQuietHoursEnd_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_NoPersonaChangeSmallDelta_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_CooldownExactlyMet_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_AtQuietHoursEnd_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_TempDeltaExceedsThreshold_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_WithinQuietHours_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_OverwritesExistingFile [4 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_CustomCooldown_RespectsConfig [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_Disabled_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_PersonaChangeSmallDelta_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_CooldownExceeded_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_BeforeSendTime_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_AtSendTime_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_PersonaChange_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_BeforeQuietHoursStart_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_FirstRun_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_FirstRun_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_CustomSendTime_RespectsConfig [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_CorruptJson_ReturnsNewState [4 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_AfterSendTime_ReturnsTrue [1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendExtremeNotification_AlreadySentToday_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_PersonaChangeAndLargeDelta_ReturnsTrue [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.DecisionEngineTests.ShouldSendLocalNotification_LargeDeltaButInCooldown_ReturnsFalse [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_DateTimeHandling_PreservesUtcKind [4 ms]
+[xUnit.net 00:00:00.41]   Finished:    WeatherHaikuAgent.Tests
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_EmptyFile_ReturnsNewState [1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_MultipleTimes_MaintainsConsistency [5 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Save_NullValues_SerializesCorrectly [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_FileWithExtraFields_IgnoresUnknownFields [1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_NullJson_ReturnsNewState [< 1 ms]
+  Passed WeatherHaikuAgent.Tests.StateStoreTests.Load_PartialState_LoadsAvailableFields [< 1 ms]
+
+Test Run Successful.
+Total tests: 117
+     Passed: 117
+ Total time: 0.9382 Seconds
+     3>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/tests/WeatherHaikuAgent.Tests/WeatherHaikuAgent.Tests.csproj" (VSTest target(s)).
+     1>Done Building Project "/home/runner/work/HaikuWeather/HaikuWeather/WeatherHaikuAgent.slnx" (VSTest target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.89
