@@ -1,0 +1,39 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.props
+*.editorconfig
+*.targets
+
+# Test outputs
+test_output.txt
+*.trx
+*.coverage
+*.coveragexml
+
+# State files
+state.json
+
+# User-specific files
+appsettings.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
